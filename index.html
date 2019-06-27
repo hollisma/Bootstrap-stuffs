@@ -11,8 +11,62 @@
       type="text/css"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
     />
+
+    <style>
+      .jumbotron {
+        background-color: #2e2d88;
+        color: white;
+      }
+    </style>
   </head>
   <body>
+    <div class="container">
+      <!-- enlarges text, adds space, and adds line after -->
+      <div class="page-header">
+        <h1>Bootstrap Tutorial</h1>
+      </div>
+
+      <!-- enlarge font, puts everything in a gray box, fills container -->
+      <div class="jumbotron">
+        <p>Hello ajdpfoais djfpoas dfopajs dpofsji dpfo</p>
+
+        <p>
+          <!-- role helps people using screen readers -->
+          <a href="#" class="btn btn-default btn-lg" role="button">More Info</a>
+
+          <button type="submit" class="btn btn-danger" role="button">
+            Button
+          </button>
+
+          <input type="button" value="Info" class="btn btn-info" />
+
+          <button type="submit" class="btn-primary btn-sm">Primary</button>
+          <button type="submit" class="btn btn-success btn-xs">Primary</button>
+          <button type="submit" class="btn btn-warning btn-lg">Primary</button>
+          <button type="submit" class="btn btn-link btn-lg">Primary</button>
+
+          <button
+            type="button"
+            class="btn btn-lg btn-primary"
+            disabled="disabled"
+          >
+            Primary
+          </button>
+
+          <a href="#" class="btn btn-default btn-lg disabled" role="button"
+            >Link</a
+          >
+
+          <div class="btn-group btn-group-lg" role='group'>
+            <button type='button' class="btn btn-default">Small</button>
+            <button type='button' class="btn btn-default">Medium</button>
+            <button type='button' class="btn btn-default">Large</button>
+          </div>
+
+        </p>
+      </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
